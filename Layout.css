@@ -1,0 +1,214 @@
+/*
+File: CSS type
+Unit: FIT 2091
+Semester: S1 2021
+Student: Zirong Liao
+File: Layout CSS
+*/
+
+/*
+div {
+    width: 960px;
+    margin: 0 auto;
+}
+*/
+
+ul{
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#logo{
+    padding:0 0 0 0;
+}
+
+
+
+/* Top Bar
+--------------------------------------------------------------------------------------------------------------- */
+#topbar{padding:50px 0; font-size:.8rem; text-transform:capitalize;}
+
+#topbar ul li{display:inline-block; margin-right:15px;}
+#topbar ul li:last-child{margin-right:0; padding-right:0; border-right:none;}
+#topbar i{line-height:normal;}
+#topbar > div:first-of-type ul li i{margin-right:5px;}
+
+#mainav ul ul{position:absolute; width:180px; text-transform:none; z-index:9999;}
+#mainav ul ul ul{left:180px; top:0;}
+#mainav li{display:inline-block; position:relative; margin:0 15px 0 0; padding:0;}
+#mainav li:last-child{margin-right:0;}
+#mainav li li{width:100%; margin:0;}
+#mainav li a{display:block; padding:30px 0;}
+#mainav li li a{border:solid; border-width:0 0 1px 0;}
+#mainav .drop{padding-left:15px;}
+#mainav li li a, #mainav li li .drop{display:block; margin:0; padding:10px 15px;}
+#mainav .drop::after{top:35px; left:5px;}
+#mainav li li .drop::after{top:15px; left:5px;}
+#mainav ul ul{visibility:hidden; opacity:0;}
+#mainav ul li:hover > ul{visibility:visible; opacity:1;}
+
+#mainav {
+    line-height: 30px;
+    text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+#mainav a {
+    color: mediumorchid;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Logo
+--------------------------------------------------------------------------------------------------------------- */
+#logo { 
+	position:fixed; 
+	top:0; 
+	left:0; 
+} 
+
+#search {
+    float: right;
+}
+
+#company {
+    text-align: center;
+}
+
+/* Development
+--------------------------------------------------------------------------------------------------------------- */
+.circle {
+    border-radius: 50%;
+    background-clip: padding-box;
+}
+
+#developer blockquote {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0 0 30px 0;
+    padding: 20px;
+    line-height: 1.4;
+    z-index: 1;
+    color: inherit;
+    background-color:lightpink;
+    border-radius: 10px;
+}
+
+#developer .one_second{
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    width: 50%;
+    height: 300px;
+    border:2px solid rgb(219, 219, 219);
+    float:left;
+}
+
+#developer .container :after{
+    display: block;
+    clear: both;
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+
+
+/* Video
+--------------------------------------------------------------------------------------------------------------- */
+#video {
+    text-align: center;
+}
+
+
+/* Footer One_third Group
+--------------------------------------------------------------------------------------------------------------- */
+#footer {
+    height: min-content;
+    position: relative;
+    padding: 50px;
+    text-align: center;
+    background: #1a1914;
+    color: white;
+}
+
+#footer .group{
+    width: 800px;
+    height: 300px;
+	background:#1a1914;
+	margin: 100px auto;
+}
+
+#footer .one_third{
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    width: 33.33%;
+    height: 300px;
+    border:2px solid rgb(219, 219, 219);
+    float:left;
+}
+
+#footer .group :after{
+    display: block;
+    clear: both;
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+
+
+/* Back to Top
+--------------------------------------------------------------------------------------------------------------- */
+#backtotop:hover {
+    position:fixed;
+    background-color: #555;
+}
+
+#backtotop.visible{visibility:visible; opacity:.5;}
+
+#backtotop{
+    color:#FFFFFF;
+    background-color: tomato;
+}
+
+#backtotop{
+    z-index:999;
+    display:inline-block;
+    position:fixed;
+    visibility:hidden;
+    bottom:20px;
+    right:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    font-size:16px;
+    text-align:center;
+    opacity:.2;
+}
+
+
+
+/* Copyright
+--------------------------------------------------------------------------------------------------------------- */
+#copyright{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #292929;
+}
+
+#copyright a{
+    color: tomato;
+}

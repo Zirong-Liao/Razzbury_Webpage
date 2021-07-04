@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!--
+Unit: FIT 2091
+Semester: S1 2021
+Student: Zirong Liao
+-->
+<html lang="">
+
+<head>
+<title>Razzbury</title>
+<meta charset="utf-8">
+<link href="Layout.css" rel="stylesheet" type="text/css" media="all">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="scripts/jquery.backtotop.js"></script>
+
+<!-- Because I add an icon, so that I add this link -->
+<script src="https://kit.fontawesome.com/0889938828.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+    <div id="head" style="background-color: beige;">
+
+        <div id="logo">
+                <img src="Images/Razzbury.png" width=auto height="150">
+        </div>
+
+        <div id="search" class="fl_right">
+            <ul class="nospace">
+            <input type="text" placeholder="Search.." >
+            <a href="#"><i class="fa fa-search"></i></a>
+            </ul>
+        </div>
+    </div>
+
+    <div id="topbar">
+
+        <div id="companyName" class="fl_left" style="text-align: center; font-size: larger;">
+            <h1><a href="Razzbury.html">Razzbury</a></h1>
+        </div>
+
+        <nav id="mainav" class="fl_right">
+            <ul class="clear">
+                
+                <li class="active"><a href="index.html">Home</a></li>
+                
+                <li><a class="drop" href="#">Storage<i class="fas fa-arrow-down"></i></a>
+                    <ul>
+                        <li><a class="drop" href="#">Wardrobe<i class="fas fa-arrow-down"></i></a>
+                            <ul>
+                                <li><a>Intelligent</a></li>
+
+                                <li><a>Ordinary</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a class="drop" href="#">Bookcase<i class="fas fa-arrow-down"></i></a>
+                            <ul>
+                                <li><a>Intelligent</a></li>
+
+                                <li><a>Ordinary</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li><a class="drop" href="#">Service<i class="fas fa-arrow-down"></i></a>
+                    <ul>
+                        <li><a href="#">After-sale</a></li>
+                        <li><a href="#">Membership</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+
+                <li><a class="drop" href="#">Language<i class="fas fa-arrow-down"></i></a>
+                    <ul>
+                        <li><a href="#">Chinese</a></li>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">Franch</a></li>
+                        <li><a href="#">Japanese</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div id="company" style="background-image: url('Images/customised\ bg.png');">
+        <h3>About Us</h3>
+
+        <p>Razzbury is the high-end intelligent brand of our company.</p>
+        <p>We are a well-known listed furniture company in Asia.
+            Now, we have entered the North American, European, and Oceanian markets.
+        </p>
+        <p>
+            Nowadays, due to busy work or family issues, most white-collar workers 
+            have very limited time on taking care of and tidying their clothes, shoes, and accessories.
+            That's why we started the brand Razzbury.
+        </p>
+    </div>
+
+    <div id="product-feature" style="text-align:center; background-color: lavender;">
+        <h3>Star Product -- Intelligent Wardrobe</h3>
+
+        <img src="Images/Wardrobe1.png" width=auto height="300">
+
+        <p>
+            Users can directly control wardrobe through LCD touch screen. 
+            Users can communicate with the product through the AI voice function.
+            The activity interlayers can help users to tidy items automatically or by users’ settings.
+        </p>
+        <footer><a href="#">Read More &raquo;</a></footer>
+    </div>
+
+    <div id="product-prototype" style="text-align:center;">
+        <h3>Customized Wardrobes</h3>
+
+        <h4>Sliding system & folding system, are suitable for room size</h4>
+
+        <p>[Type 1]</p>
+        <img src="Images/1.png"><p>Sliding system with sliding doors</p>
+        <p>[Type 2]</p>
+        <img src="Images/2.png"><p>Folding system with separate doors</p>
+
+        <footer><a href="#">Read More &raquo;</a></footer>
+    </div>
+
+    <div id="developer" style="text-align:center; background-color:azure;">
+        <h3 class="center heading">Development Team</h3>
+        <p>
+            Our development team is composed of experts from global intelligence, human-computer interaction and other fields,
+            as well as our innovative designers.
+        </p>
+
+        <div id="dev" class="container">
+            <div class="one_second" style="text-align: center;">
+                <blockquote>
+                    Hi! I am Grace, an AI developer from our activity team.
+                </blockquote>
+                <img class="circle" src="Images/AI Person 1.png">
+        </div>
+
+        <div id="dev" class="container">
+            <div class="one_second" style="text-align: center;">
+                <blockquote>
+                    Hello visitor! I am Rebecca, an product operation officer.
+                </blockquote>
+                <img class="circle" src="Images/AI Person 2.png">
+        </div>
+
+    </div>
+
+    <div id="video" class="player" style="background-image: url('Images/Video_BG_1904×484.png');">
+        <video width="640" height="480" controls="controls">
+            <source src="FIT2091_Ass_D_Zirong Liao.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <footer id="footer">
+
+        <div id="forms" class="group">
+
+            <div class="one_third" style="text-align:center">
+
+                <h4 class="center heading">Contact</h4>
+                
+                <li><address>Address: 15 Rose Lane, Vic, 3000</address></li>
+                <li>Tell: +61 123 456 767 </li>
+                <li>Email: razzbury@gmail.com </li>
+                <li>Facebook: Razzbury Company</li>
+
+            </div>
+            
+            <div class="one_third" style="text-align:center">
+                <h4 class="center heading">Login & Register</h4>
+     
+                <input class="btmspace-15" type="text" value="" placeholder="Email">
+                <input class="btmspace-15" type="text" value="" placeholder="Password">
+
+                <li class="items"><button type="Login" value="Login">Login</button></li>
+                <p>Or</p>
+                <li class="items"><button type="Register" value="Register">Register</button></li>
+
+            </div>
+
+            <div class="one_third" style="text-align:center">
+                <h4 class="center heading">Investment</h4>
+    
+                <input type="text" placeholder="Name or Nickname">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Invest Price($)">
+                <li class="items"><button type="Submit" value="Submit">Submit</button></li>
+    
+                <p>We will contact you to talking more detail and confirm as soon as possib during 48 hours!</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <div id="copyright"> 
+
+        <p class="fl_left">Copyright &copy; 2021 - All Rights Reserved - <a href="#">Razzbury</a></p>
+        <p class="fl_right">Created by Razzbury - FIT2091 Student: Zirong Liao</p>
+
+    </div>
+
+    <a id="backtotop" href="#top">Top</a>
+
+</body>
+</html>
